@@ -1,0 +1,14 @@
+goto ssh windows
+# sudo -s
+# cd /opt/lampp/htdocs
+# wget https://www.dropbox.com/s/lmkcn6wqh3qzcds/phpFiles30-8-2019.zip?dl=0
+# mv phpFiles30-8-2019.zip?dl=0 phpFiles.zip
+# unzip phpFiles.zip
+# rm phpFiles.zip -f
+# wget https://www.dropbox.com/s/2bm567mze2nzfpl/createDB_Tables.php?dl=0
+# mv createDB_Tables.php?dl=0 createDB_Tables.php
+# wget https://www.dropbox.com/s/gsqfsler8h8sz1s/dip.jpg?dl=0
+# mv dip.jpg?dl=0 dip.jpg
+goto browser
+http://ipaddress/createDB_Tables.php
+database will be creates with tables
