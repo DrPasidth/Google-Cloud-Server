@@ -2,7 +2,7 @@ goto ssh windows
 
 # sudo -s
 # cd /opt/lampp/htdocs
-# wget https://www.dropbox.com/s/3ha8zf5m0fhjx7a/phpFiles30-8-2019-v2.zip?dl=0
+# wget https://www.dropbox.com/s/7oh0pxh6tde671a/phpFiles30-8-2019.zip?dl=0
 # mv phpFiles30-8-2019-v2.zip?dl=0 phpFiles.zip
 # unzip phpFiles.zip
 # rm phpFiles.zip -f
