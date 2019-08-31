@@ -54,3 +54,13 @@ look for mcmonitoring database.
 check php script by goto bsmenu.php
 
 http://ipaddress/bsmenu.php
+
+------------------------------------------
+section 3 
+-----------------------------------------
+replace file createDB_Tables.php
+
+sudo -s
+cd /opt/lampp/htdocs
+wget https://www.dropbox.com/s/fnybvjmk7vc1nm4/createDB_Tables.php?dl=0
+mv createDB_Tables.php?dl=0 createDB_Tables.php
