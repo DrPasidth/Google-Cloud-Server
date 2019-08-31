@@ -5,8 +5,8 @@ section 1
 --------------------------------------------------------------------------
 # sudo -s
 # cd /opt/lampp/htdocs
-wget https://www.dropbox.com/s/7oh0pxh6tde671a/phpFiles30-8-2019.zip?dl=0
-mv phpFiles30-8-2019.zip?dl=0 phpFiles.zip
+wget https://www.dropbox.com/s/q7mfzmmz5cwiqm5/phpFiles31-8-2019-2.zip?dl=0
+mv phpFiles31-8-2019-2.zip?dl=0 phpFiles.zip
 unzip phpFiles.zip
 rm phpFiles.zip -f
 
@@ -23,44 +23,4 @@ check php script by goto bsmenu.php
 
 http://ipaddress/bsmenu.php
 
----------------------------------------------------------
-section 2
----------------------------------------------------------
-If there is any error --> redo as follow
-1. remove all files (.php) copy below all lines and paste into ssh windows
 
-sudo -s
-cd /opt/lampp/htdocs
-rm *.php -r -f
-rm css -r -f
-rm cssjs -r -f
-rm fonts -r -f
-rm js -r -f
-rm photo -r -f
-
-2. download and unzip new files
-
-wget https://www.dropbox.com/s/7oh0pxh6tde671a/phpFiles30-8-2019.zip?dl=0
-mv phpFiles30-8-2019.zip?dl=0 phpFiles.zip
-unzip phpFiles.zip
-rm phpFiles.zip -f
-
-3.
-goto browser
-http://ipaddress/phpmyadmin
-login phpmyadmin
-look for mcmonitoring database.
-
-check php script by goto bsmenu.php
-
-http://ipaddress/bsmenu.php
-
-------------------------------------------
-section 3 
------------------------------------------
-replace file createDB_Tables.php
-
-sudo -s
-cd /opt/lampp/htdocs
-wget https://www.dropbox.com/s/fnybvjmk7vc1nm4/createDB_Tables.php?dl=0
-mv createDB_Tables.php?dl=0 createDB_Tables.php
