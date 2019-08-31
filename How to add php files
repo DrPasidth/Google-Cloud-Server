@@ -5,10 +5,10 @@ section 1
 --------------------------------------------------------------------------
 # sudo -s
 # cd /opt/lampp/htdocs
-wget https://www.dropbox.com/s/q7mfzmmz5cwiqm5/phpFiles31-8-2019-2.zip?dl=0
-mv phpFiles31-8-2019-2.zip?dl=0 phpFiles.zip
-unzip phpFiles.zip
-rm phpFiles.zip -f
+# wget https://www.dropbox.com/s/q7mfzmmz5cwiqm5/phpFiles31-8-2019-2.zip?dl=0
+# mv phpFiles31-8-2019-2.zip?dl=0 phpFiles.zip
+# unzip phpFiles.zip
+# rm phpFiles.zip -f
 
 goto browser
 http://ipaddress/createDB_Tables.php
