@@ -12,7 +12,7 @@ section 1
 
 goto browser
 http://ipaddress/createDB_Tables.php
-database will be creates with tables
+database will be created with tables.
 
 goto browser
 http://ipaddress/phpmyadmin
