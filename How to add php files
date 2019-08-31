@@ -3,10 +3,15 @@ goto ssh windows
 # sudo -s
 # cd /opt/lampp/htdocs
 # wget https://www.dropbox.com/s/7oh0pxh6tde671a/phpFiles30-8-2019.zip?dl=0
-# mv phpFiles30-8-2019-v2.zip?dl=0 phpFiles.zip
+# mv phpFiles30-8-2019.zip?dl=0 phpFiles.zip
 # unzip phpFiles.zip
 # rm phpFiles.zip -f
 
 goto browser
 http://ipaddress/createDB_Tables.php
 database will be creates with tables
+
+goto browser
+http://ipaddress/phpmyadmin
+login phpmyadmin
+look for mcmonitoring database.
